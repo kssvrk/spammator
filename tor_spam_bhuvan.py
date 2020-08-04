@@ -38,7 +38,7 @@ female_names='femalenames.csv'
     
 def UserNamesList(iteration):
     name_list=[]
-    key="xuangjhou_"
+    key="prefix_"
     with open(male_names,encoding="utf8") as csvfile:
         csv_reader = csv.reader(csvfile, delimiter=',')
         for row in csv_reader:
