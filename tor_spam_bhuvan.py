@@ -66,7 +66,6 @@ def SpamBhuvan(user_name):
     cdriver = webdriver.Chrome(executable_path="/home/radhakrishna/Desktop/projects/python/instaspam/chromedriver")
     
     try:
-        #user_name="xuangJhou420"
         murl="https://temp-mail.org/"
         #first open temp mail in your chrome and get an email
         cdriver.get(murl)
